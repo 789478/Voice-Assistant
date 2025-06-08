@@ -59,7 +59,7 @@ recognition.onresult = (event) => {
              speak("hello ,what can i help you?")
 
          }else if(message.includes("who are you")){
-            speak("i am  your virtual assistant ,created by Vrushali (she is my developer")
+            speak("i am  your virtual assistant ,created by Nitu (she is my developer")
         }else if(message.includes("open youtube")){
             speak("opening youtube...")
             window.open("https://youtube.com/","_blank")
